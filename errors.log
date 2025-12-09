@@ -1,0 +1,2 @@
+InvalidInputException: Невідома операція.
+ArithmeticException: Ділення на нуль неможливе!
