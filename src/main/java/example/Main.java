@@ -1,7 +1,7 @@
 package example;
 
-import org.example.Calculator;
-import org.example.ErrorLogger;
+import example.Calculator;
+import example.ErrorLogger;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
@@ -31,6 +31,7 @@ public class Main {
                     case "-" -> result = calculator.subtract(a, b);
                     case "*" -> result = calculator.multiply(a, b);
                     case "/" -> result = calculator.divide(a, b);
+                    case "sqrt" -> result = calculator.sqrt(a);
                     default -> throw new InvalidInputException("Невідома операція.");
                 }
 
